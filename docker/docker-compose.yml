@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+
+  node16:
+    build: ./node16/
+    volumes:
+      - ..:/app/
+    working_dir: /app
