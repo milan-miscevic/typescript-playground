@@ -18,7 +18,7 @@ class Apple {
 class Orange {
 }
 
-let apples: Basket<Apple> = new Basket<Apple>();
+const apples: Basket<Apple> = new Basket<Apple>();
 apples.add(new Apple());
 apples.add(new Orange()); // no error
 console.log(apples.count());
